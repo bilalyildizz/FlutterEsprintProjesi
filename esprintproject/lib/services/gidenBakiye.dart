@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 
 class GidenBakiyeService{
-  static  var url= Uri.parse("https://muhasebe.esprint.com.tr/deneme.php");
+  static  var url= Uri.parse("http");
 Future<List<GidenBakiyeModel>> getGidenBakiye()async{
  // static Future<List<Isler>> getTable()async{
 
