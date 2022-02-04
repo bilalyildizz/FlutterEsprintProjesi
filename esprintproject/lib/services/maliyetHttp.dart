@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 
 class MaliyetService{
-  static  var url= Uri.parse("https://muhasebe.esprint.com.tr/deneme.php");
+  static  var url= Uri.parse("http");
 Future<List<MaliyetModel>> getMaliyet()async{
  // static Future<List<Isler>> getTable()async{
 
