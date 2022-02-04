@@ -8,7 +8,7 @@ class HttpUser{
 
 
 
-var response  =await http.post(Uri.parse("http://muhasebe.esprint.com.tr/deneme.php"),body: {
+var response  =await http.post(Uri.parse("http"),body: {
   "tablo_adi": "isler"
 });
     debugPrint(response.body);
@@ -21,7 +21,7 @@ var response  =await http.post(Uri.parse("http://muhasebe.esprint.com.tr/deneme.
 
 
 class UserService{
-  static  var url= Uri.parse("https://muhasebe.esprint.com.tr/deneme.php");
+  static  var url= Uri.parse("http");
 Future<List<UserModel>> getUsers()async{
  // static Future<List<Isler>> getTable()async{
 
