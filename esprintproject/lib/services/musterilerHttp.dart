@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 
 class MusterilerService{
-  static  var url= Uri.parse("https://muhasebe.esprint.com.tr/deneme.php");
+  static  var url= Uri.parse("http");
 Future<List<MusterilerModel>> getMusteriler()async{
  // static Future<List<Isler>> getTable()async{
 
